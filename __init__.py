@@ -17,10 +17,11 @@ templates referenced. The composer only ever emits the ``_t4``/``_t4r``
 family (PlagueKind chain spine + base-pack latent save/load), so the
 Ray lineage was deleted; ONE seam architecture remains.
 
-In-tree pack: deployed from custom_nodes/melite-h3-motion-nodes (declared in
-plugins/melite-video/nodes/extensions.yaml — §16 E-EXTENSIONS; see also the
-docker-compose.yml inference-comfyui volumes, bind-mounted read-only into
-/root/ComfyUI/custom_nodes/).
+In-tree pack: deployed from plugins/comfyui/custom_nodes/melite-h3-motion-nodes
+(declared in plugins/comfyui/models/video/h3-timeline/nodes.yaml — the
+h3-timeline family owns it). Published at
+https://github.com/JayDataEngineer/melite-h3-motion-nodes and tracked in the
+inference estate as a git submodule.
 """
 from . import h3_seam_nodes
 
